@@ -2,7 +2,8 @@
 
 vide =0
 mur=1
-escalier=
+escalierM=2
+escalierD=3
 
 
 def etage(e):
