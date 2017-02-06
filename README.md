@@ -2,7 +2,8 @@
 
 vide =0
 mur=1
-escalier=
+escalierM=
+escalierD=
 
 
 def etage(e):
@@ -20,3 +21,9 @@ def donjon():
   for k in range(0,10):
     d.append(etage(k))
   return d
+
+def escalierD():
+  i=randint(1,31)
+  j=randint(1,31)   #faire des conditions pour que les escaliers ne tombent pas sur un mur !!!
+  D=[i,j]
+    
